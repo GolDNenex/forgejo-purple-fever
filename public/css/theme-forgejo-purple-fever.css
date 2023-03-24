@@ -1,5 +1,3 @@
-@import "./chroma/dark.css";
-@import "./codemirror/dark.css";
 :root {
   --steel-900: #1d003338;
   --steel-850: #19002f;
@@ -19,18 +17,18 @@
   --steel-150: #5b5b5b;
   --steel-100: #9d9d9d;
   --is-dark-theme: true;
-  --color-primary: #6a00ff;
+  --color-primary: #6a00ff; /* #6a00ff */
   --color-primary-contrast: #9d9d9d;
-  --color-primary-dark-1: #fdba74;
+  --color-primary-dark-1: #6400c4;
   --color-primary-dark-2: #6400c4;
   --color-primary-dark-3: #6a00ff;
   --color-primary-dark-4: #752fff;
   --color-primary-dark-5: #ffedd5;
   --color-primary-dark-6: #ffedd5;
   --color-primary-dark-7: #fff7ed;
-  --color-primary-light-1: #f97316;
+  --color-primary-light-1: #57009f;
   --color-primary-light-2: #6a00ffcc;
-  --color-primary-light-3: #c2410c;
+  --color-primary-light-3: #5e0cc2;
   --color-primary-light-4: #3b0082;
   --color-primary-light-5: #9a3412;
   --color-primary-light-6: #7c2d12;
@@ -286,5 +284,29 @@ i.grey.icon.icon.icon.icon {
 }
 .ui.tertiary.button:hover {
   color: #ccc;
+}
+
+a, .ui.breadcrumb a {
+  color: #70f;
+  cursor: pointer;
+  text-decoration-skip-ink: all;
+  text-shadow: 0 0 3px #000, 0 0 5px #000;
+}
+
+.ui.basic.small.compact.clone.button.primary {
+    background-color: #28005b !important;
+}
+
+.reference.column {
+  color: #8000ff;
+}
+
+.item.gt-p-2.muted {
+  color: #752fff !important;
+}
+
+.dropzone .dz-preview.dz-file-preview .dz-image {
+  border-radius: 5px !important;
+  background: linear-gradient(to bottom,#250057,#28005b);
 }
 
