@@ -51,7 +51,7 @@
 .chroma .no { color: #649bc4; } /* NameConstant */
 .chroma .nt { color: #7940ff; } /* NameTag */
 .chroma .nv { color: #ebdbb2; } /* NameVariable */
-.chroma .nx { color: #b6bac5; } /* NameOther */
+.chroma .nx { color: #7000ff; } /* NameOther */
 .chroma .o { color: #ff7540; } /* Operator */
 .chroma .ow { color: #5f8700; } /* OperatorWord */
 .chroma .p { color: #d2d4db; } /* Punctuation */
