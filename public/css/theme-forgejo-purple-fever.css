@@ -155,6 +155,8 @@
   --color-input-border: var(--steel-550);
   --color-input-border-hover: var(--steel-450);
   --color-navbar: var(--steel-850);
+  --color-nav-hover-bg: #242D3800;
+  --color-nav-bg: #242D3800;
   --color-navbar-transparent: #242D3800;
   --color-light: #00000028;
   --color-light-mimic-enabled: rgba(0, 0, 0, calc(40 / 255 * 222 / 255 / var(--opacity-disabled)));
@@ -181,10 +183,11 @@
   --color-reaction-bg: #ffffff12;
   --color-reaction-active-bg: var(--color-primary-alpha-30);
   --color-header-bar: var(--steel-900);
-  --color-label-active-bg: #4c525e;
+  --color-label-bg: #4c525e;
+  --color-label-hover-bg: #4c525e;
   --color-accent: var(--color-primary-light-1);
   --color-small-accent: var(--color-primary-light-5);
-  --color-active-line: #534d1b;
+  --color-hover-line: #534d1b;
   accent-color: var(--color-accent);
   color-scheme: dark;
 }
@@ -271,8 +274,8 @@ i.grey.icon.icon.icon.icon {
   color: #fff !important;
   margin-left: 0.5em;
 }
-.ui.tabs .ui.primary.label,
-.ui.menu .ui.primary.label {
+.ui.tabs .ui.label,
+.ui.menu .ui.label {
   background-color: rgba(192, 192, 255, 0.2) !important;
   color: var(--color-text-dark) !important;
 }
@@ -287,12 +290,17 @@ i.grey.icon.icon.icon.icon {
 }
 
 a, .ui.breadcrumb a {
-  color: #70f;
+  color: #a37edb;
   cursor: pointer;
   text-decoration-skip-ink: all;
-  text-shadow: 0 0 3px #000, 0 0 5px #000;
+  text-shadow: 0 0 0.5px #000, 0 0 0px #000;
 }
-
+a:hover, .ui.breadcrumb a:hover {
+  color: #bd93fb;
+  cursor: pointer;
+  text-decoration-skip-ink: all;
+  text-shadow: 0 0 0.5px #000, 0 0 0px #000;
+}
 .ui.basic.small.compact.clone.button.primary {
     background-color: #28005b !important;
 }
